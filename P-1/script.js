@@ -1,13 +1,13 @@
 let container = document.getElementById("container");
 
-let button = document.getElementbyId("change-btn");
+let button = document.getElementById("change-btn");
 
 
 // HeX Code for Color - 
 
 function randomColor(){
     let hexCode = '#';
-    let hexTreasure = '013456789ABCDEF';
+    let hexTreasure = '0123456789ABCDEF';
 
     for (let i = 0; i < 6; i++) {
         hexCode += hexTreasure[Math.floor(Math.random() * 16)];
@@ -19,5 +19,5 @@ button.onclick = () => {
     // changes background color
 
     container.style.backgroundColor = randomColor();
-    
+
 }
