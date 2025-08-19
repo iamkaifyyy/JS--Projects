@@ -1,0 +1,1 @@
+// this is here use the hex code for the random color generator where we use setInterval that changes the background style of the body once every second or whatever we decide how much it will be
